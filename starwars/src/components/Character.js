@@ -1,7 +1,7 @@
 // Write your Character component here
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import {Div} from "./styled";
+
 
 import CharacterCard from "./CharacterCard";
 export default function Character(){

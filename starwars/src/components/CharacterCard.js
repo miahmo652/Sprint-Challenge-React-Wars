@@ -2,7 +2,7 @@ import React from "react";
 import {Div, P, H2} from "./styled.js";
 const CharacterCard = props=>{
     return(<div>
-       <H2>Name: {props.Name}</H2>
+       <H2>{props.Name}</H2>
         <Div>
         
         <P>Height: {props.Height}</P>

@@ -16,7 +16,8 @@ display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin: 20px auto;
-  max-width: 900px;
+  max-width: 1000px;
+  background-color: coral;
 `
 
 export const P = styled.p 
@@ -27,8 +28,8 @@ color: white;
 `
 export const H2 = styled.h2
 `
-font-size: 30px
+font-size: 30px;
 font-family: "Lucida Console", Monaco, monospace;
-
+color: red;
 text-decoration: underline;
 `
