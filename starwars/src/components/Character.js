@@ -1,6 +1,7 @@
 // Write your Character component here
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import {Div} from "./styled";
 
 import CharacterCard from "./CharacterCard";
 export default function Character(){
@@ -20,6 +21,7 @@ export default function Character(){
         {
             chars.map(char=>{
                 return(
+                   
                     <CharacterCard 
                          Name={char.name}
                          Height={char.height}
@@ -28,7 +30,7 @@ export default function Character(){
                          Skincolor={char.skin_color}
                          Eyecolor={char.eye_color}
                          Gender={char.gender}
-                    />
+                    /> 
                 )
             })
         }

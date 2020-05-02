@@ -1,15 +1,17 @@
 import React from "react";
-
+import {Div, P, H2} from "./styled.js";
 const CharacterCard = props=>{
-    return(
-        <div>
-        <h2>Name: {props.Name}</h2>
-        <p>Height: {props.Height}</p>
-        <p>Mass: {props.Mass}</p>
-        <p>Hair color: {props.Haircolor}</p>
-        <p>Skin color: {props.Skincolor}</p>
-        <p>Eye color: {props.Eyecolor}</p>
-        <p>Gender: {props.Gender}</p>
+    return(<div>
+       <H2>Name: {props.Name}</H2>
+        <Div>
+        
+        <P>Height: {props.Height}</P>
+        <P>Mass: {props.Mass}</P>
+        <P>Hair color: {props.Haircolor}</P>
+        <P>Skin color: {props.Skincolor}</P>
+        <P>Eye color: {props.Eyecolor}</P>
+        <P>Gender: {props.Gender}</P>
+     </Div>
      </div>
     );
 };
